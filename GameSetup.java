@@ -31,9 +31,7 @@ public class GameSetup
            army.add(new Balrog());
        }
        
-       for (int i = 0; i < 9; i++){
-           army.add(new Demon());
-       }
+       
        
        
     }
