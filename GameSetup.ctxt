@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=GameSetup
+comment0.text=\r\n\ Setting\ up\ the\ game\ by\ adding\ the\ creatures\ to\ an\ array.\r\n\r\n\ @author\ Kazeem\ Azeez\r\n\ @version\ 2019.08.11\r\n
+comment1.params=
+comment1.target=GameSetup()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ GameSetup\r\n
+numComments=2
