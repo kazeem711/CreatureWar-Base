@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Cyberdemon extends Creature
+public class Cyberdemon extends Demon
 {
     // instance variables - replace the example below with your own
     private static final int MAX_HUMAN_HP = 100;
@@ -23,10 +23,7 @@ public class Cyberdemon extends Creature
         // max and min values to this class only
         // max-min is range of values
         // range + min ensures that the values don't start at one.
-        super(
-            Randomizer.nextInt(MAX_HUMAN_HP-MIN_HUMAN_HP)+MIN_HUMAN_HP,    
-            Randomizer.nextInt(MAX_HUMAN_STR-MIN_HUMAN_STR)+MIN_HUMAN_STR
-        );
+        super();
         
         
           
