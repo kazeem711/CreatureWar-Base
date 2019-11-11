@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Balrog extends Creature
+public class Balrog extends Demon
 {
     // instance variables - replace the example below with your own
     private static final int MAX_HUMAN_HP = 40;
@@ -23,10 +23,7 @@ public class Balrog extends Creature
         // max and min values to this class only
         // max-min is range of values
         // range + min ensures that the values don't start at one.
-        super(
-            Randomizer.nextInt(MAX_HUMAN_HP-MIN_HUMAN_HP)+MIN_HUMAN_HP,    
-            Randomizer.nextInt(MAX_HUMAN_STR-MIN_HUMAN_STR)+MIN_HUMAN_STR
-        );
+        super();
         
         
           
@@ -36,14 +33,9 @@ public class Balrog extends Creature
      * method called damageBoost
      * 10% chance to do magical damage
      */
-    @Override
+  
     public int damage(){
-        int damage2 = Randomizer.nextInt(20)+1;
-        int dHit = Randomizer.nextInt(MAX_HUMAN_STR-MIN_HUMAN_STR)+MIN_HUMAN_STR;
-        for(int i = 0; i<2; i++){
-         return dHit;   
-        }
-        return dHit;
+        return super.damage() + super.damage();
     }
 
 }
