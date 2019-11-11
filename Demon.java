@@ -36,16 +36,14 @@ public class Demon extends Creature
      * method called damageBoost
      * 10% chance to do magical damage
      */
-    @Override
+   
     public int damage(){
         int damage2 = Randomizer.nextInt(20)+1;
         int dHit = Randomizer.nextInt(MAX_HUMAN_STR-MIN_HUMAN_STR)+MIN_HUMAN_STR;
         int plus50 = 0;
         if(damage2 == 1){
-            plus50 = dHit + 50;
-        } else{
-            return dHit;
-        }
+            plus50 += 50;
+        } 
         return plus50;
     }
 
