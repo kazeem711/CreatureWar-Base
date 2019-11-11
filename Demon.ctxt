@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Demon
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Demon\ here.\r\n\r\n\ @author\ Kazeem\ Azeez\r\n\ @version\ 2019.07.11\r\n
+comment1.params=
+comment1.target=Demon()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Human\r\n
+comment2.params=
+comment2.target=int\ damage()
+comment2.text=\r\n\ method\ called\ damageBoost\r\n\ 10%\ chance\ to\ do\ magical\ damage\r\n
+numComments=3
