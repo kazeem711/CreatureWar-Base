@@ -58,10 +58,8 @@ public abstract class Creature
      */
     public boolean isAlive() {
         //implement this
-        if(hp > 0){
-            
-        }
-        return false; //change this
+        
+        return hp < 0 ; //change this
     }
     
     /**
@@ -70,7 +68,7 @@ public abstract class Creature
      */
     public boolean isDead() {
         //implement this
-        return false; //change this
+        return !isAlive(); //change this
     }
     
     
