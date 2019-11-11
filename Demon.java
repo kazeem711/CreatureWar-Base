@@ -32,6 +32,10 @@ public class Demon extends Creature
           
     }
     
+    public Demon(int hp, int str){
+     super(hp,str);   
+    }
+    
     /**
      * method called damageBoost
      * 10% chance to do magical damage
